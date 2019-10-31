@@ -1,0 +1,27 @@
+version: '3.0'
+services: 
+  jenkinsdata:
+    build: 
+      context: .
+      dockerfile: ./data/Dockerfile
+    image: jenkinsdata:1
+    container_name: jenkinsdata
+    restart: unless-stopped
+
+  jenkinscore:
+    build: 
+      context: .
+      dockerfile: ./core/Dockerfile
+    image: jenkins:1
+    container_name: jenkinscore
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    links:
+        - jenkinsdata
+   
+
+      
+
+
