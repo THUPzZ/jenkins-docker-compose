@@ -272,7 +272,8 @@ bash scriptdeploy.sh&apos;&apos;&apos;, execTimeout: 120000, flatten: false, mak
   <queueId>31</queueId>
   <timestamp>1572733823053</timestamp>
   <startTime>1572733823059</startTime>
-  <duration>0</duration>
+  <result>SUCCESS</result>
+  <duration>320893</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
@@ -323,7 +324,7 @@ bash scriptdeploy.sh&apos;&apos;&apos;, execTimeout: 120000, flatten: false, mak
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>371654341</long>
+        <long>533820075</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -331,7 +332,7 @@ bash scriptdeploy.sh&apos;&apos;&apos;, execTimeout: 120000, flatten: false, mak
       </entry>
       <entry>
         <string>run</string>
-        <long>9048438011</long>
+        <long>11150893542</long>
       </entry>
       <entry>
         <string>parse</string>
@@ -339,17 +340,16 @@ bash scriptdeploy.sh&apos;&apos;&apos;, execTimeout: 120000, flatten: false, mak
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>1450083064</long>
+        <long>1718458992</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>29</iota>
-    <head>1:29</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>46</iota>
+    <head>1:46</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
       <scm class="hudson.plugins.git.GitSCM" plugin="git@4.0.0">
