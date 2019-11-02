@@ -1,0 +1,9 @@
+commit 2d685d335417c78a0d9704fc76d83cee2298119b
+tree f23948b0be5fedff662a934346887bd95310bdce
+parent d5eecd35a377a153a65648f9f0de41a81e36a0fb
+author Theeraprased Meemui <36168292+THUPzZ@users.noreply.github.com> 2019-11-02 21:33:25 +0700
+committer GitHub <noreply@github.com> 2019-11-02 21:33:25 +0700
+
+    Update Jenkinsfile
+
+:100644 100644 f2a8da02359b895da08797cfb56928c95ee882b0 90da9b6e3253a952d5d609a4885a3b9fcea85935 M	Jenkinsfile

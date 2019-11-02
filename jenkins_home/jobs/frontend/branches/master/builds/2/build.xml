@@ -1,0 +1,185 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.35">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>thup</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.6.3">
+      <sourceId>d5d42438-8b3d-485d-9aec-2e7cda3e4c45</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@4.0.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.5.8">
+          <name>master</name>
+        </head>
+        <hash>2d685d335417c78a0d9704fc76d83cee2298119b</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.0.0">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.0.0">
+              <sha1>2d685d335417c78a0d9704fc76d83cee2298119b</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>2</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/THUPzZ/frontend.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.0.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/frontend_master</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.9">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/THUPzZ/frontend.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.75">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>6</queueId>
+  <timestamp>1572705314937</timestamp>
+  <startTime>1572705314941</startTime>
+  <result>FAILURE</result>
+  <duration>7535</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+  try {
+    stage(&apos;Checkout&apos;) {
+      checkout scm
+    }
+    stage(&apos;Environment&apos;) {
+      sh &apos;git --version&apos;
+      echo &quot;Branch: ${env.BRANCH_NAME}&quot;
+      sh &apos;docker -v&apos;
+      sh &apos;printenv&apos;
+    }
+    stage(&apos;Build Docker test&apos;){
+     sh &apos;docker build -t react-test -f Dockerfile --no-cache .&apos;
+    }
+    stage(&apos;Docker test&apos;){
+      sh &apos;docker run --rm react-test&apos;
+    }
+    stage(&apos;Clean Docker test&apos;){
+      sh &apos;docker rmi react-test&apos;
+    }
+    stage(&apos;Deploy&apos;){
+      if(env.BRANCH_NAME == &apos;master&apos;){
+        sh &apos;docker build -t frontend --no-cache .&apos;
+        sh &apos;docker tag frontend 127.0.0.1:5000/frontend&apos;
+        sh &apos;docker push 127.0.0.1:5000/frontend&apos;
+        sh &apos;docker rmi -f frontend 127.0.0.1:5000/frontend&apos;
+      }
+    }
+  }
+  catch (err) {
+    throw err
+  }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>629958817</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>323432454</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1105034414</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>215269187</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>40541474</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>19</iota>
+    <head>1:19</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.0.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+            <url>https://github.com/THUPzZ/frontend.git</url>
+            <credentialsId>1b5fe144-c8e1-4de5-978f-5aefd4e8d953</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+          <url>https://github.com/THUPzZ/frontend</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/frontend_master</workspace>
+      <changelogFile>/var/jenkins_home/jobs/frontend/branches/master/builds/2/changelog7091991383537284547.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

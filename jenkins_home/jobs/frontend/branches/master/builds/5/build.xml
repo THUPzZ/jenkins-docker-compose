@@ -1,0 +1,106 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.35">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>thup</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.6.3">
+      <sourceId>d5d42438-8b3d-485d-9aec-2e7cda3e4c45</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@4.0.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.5.8">
+          <name>master</name>
+        </head>
+        <hash>423ecd4efefe0fed23d1c0b8917f5e855b138640</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.75">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>13</queueId>
+  <timestamp>1572706200399</timestamp>
+  <startTime>1572706200401</startTime>
+  <result>FAILURE</result>
+  <duration>2764</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+  agent any
+  try {
+    stage(&apos;Checkout&apos;) {
+      checkout scm
+    }
+    stage(&apos;Environment&apos;) {
+      sh &apos;git --version&apos;
+      echo &quot;Branch: ${env.BRANCH_NAME}&quot;
+      sh &apos;docker -v&apos;
+      sh &apos;printenv&apos;
+    }
+    stage(&apos;Build Docker test&apos;){
+     sh &apos;docker build -t react-test -f Dockerfile --no-cache .&apos;
+    }
+    stage(&apos;Docker test&apos;){
+      sh &apos;docker run --rm react-test&apos;
+    }
+    stage(&apos;Clean Docker test&apos;){
+      sh &apos;docker rmi react-test&apos;
+    }
+    stage(&apos;Deploy&apos;){
+      if(env.BRANCH_NAME == &apos;master&apos;){
+        sh &apos;docker build -t frontend --no-cache .&apos;
+        sh &apos;docker tag frontend 127.0.0.1:5000/frontend&apos;
+        sh &apos;docker push 127.0.0.1:5000/frontend&apos;
+        sh &apos;docker rmi -f frontend 127.0.0.1:5000/frontend&apos;
+      }
+    }
+  }
+  catch (err) {
+    throw err
+  }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>79607775</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>51886176</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>75648646</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>84419637</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>4159723</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
