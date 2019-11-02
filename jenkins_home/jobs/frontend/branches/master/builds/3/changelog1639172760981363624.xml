@@ -1,0 +1,18 @@
+commit e817b6b2ad7dc13a6f047483d015cefb2038f3ba
+tree 3c7d15c2e1734eab5ada1fcddfd44c962de8657a
+parent 1e77b8edd4ac122657918a35432f26cfb674536c
+author Theeraprased Meemui <36168292+THUPzZ@users.noreply.github.com> 2019-11-03 00:59:27 +0700
+committer GitHub <noreply@github.com> 2019-11-03 00:59:27 +0700
+
+    fix pipeline
+
+:100644 100644 d3c962e9784534b2812601299ae08ed45b681b87 e09032df6e91fc24789f0098ce1a43cad558c324 M	Jenkinsfile
+commit 1e77b8edd4ac122657918a35432f26cfb674536c
+tree 33af02b33d8cd2efdac1531a927279c233629518
+parent 4b2fb0eac18ab29fb3885362000cc28ec97577b4
+author Theeraprased Meemui <36168292+THUPzZ@users.noreply.github.com> 2019-11-03 00:54:45 +0700
+committer GitHub <noreply@github.com> 2019-11-03 00:54:45 +0700
+
+    Update Jenkinsfile
+
+:100644 100644 90da9b6e3253a952d5d609a4885a3b9fcea85935 d3c962e9784534b2812601299ae08ed45b681b87 M	Jenkinsfile

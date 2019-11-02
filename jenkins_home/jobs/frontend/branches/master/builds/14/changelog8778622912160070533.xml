@@ -1,0 +1,10 @@
+commit 4538affe02999927b00cc7f7b823048b8c3bfb5b
+tree 1cb605a0cf956ab12ed3fee6a383ada0bef5a0c8
+parent 212e87cf39ccefffc56c422e68aee807e0245f10
+author theeraprased <tub.meemui@gmail.com> 2019-11-03 05:17:45 +0700
+committer theeraprased <tub.meemui@gmail.com> 2019-11-03 05:17:45 +0700
+
+    fix docker-compose build
+
+
+:100644 100644 f4ba44a31a6223e191f19b7d7cb43cace317a026 1e12d76eb8aeaa36537d38a651d92ed6e73d4f70 M	Jenkinsfile

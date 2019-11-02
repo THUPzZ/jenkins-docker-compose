@@ -5,21 +5,26 @@
       <string>9</string>
     </parentIds>
     <id>10</id>
-    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
   </node>
   <actions>
     <s.a.LogStorageAction/>
     <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.75">
       <arguments>
         <entry>
-          <string>name</string>
-          <string>Environment</string>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=e817b6b2ad7dc13a6f047483d015cefb2038f3ba</string>
+            <string>GIT_PREVIOUS_COMMIT=4b2fb0eac18ab29fb3885362000cc28ec97577b4</string>
+            <string>GIT_URL=https://github.com/THUPzZ/frontend.git</string>
+          </list>
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </cps.a.ArgumentsActionImpl>
     <wf.a.TimingAction plugin="workflow-api@2.37">
-      <startTime>1572705668441</startTime>
+      <startTime>1572717595256</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

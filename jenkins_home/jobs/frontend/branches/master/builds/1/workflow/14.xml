@@ -12,13 +12,13 @@
       <arguments>
         <entry>
           <string>script</string>
-          <string>sudo docker -v</string>
+          <string>docker -v</string>
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </cps.a.ArgumentsActionImpl>
     <wf.a.TimingAction plugin="workflow-api@2.37">
-      <startTime>1572703046121</startTime>
+      <startTime>1572717139943</startTime>
     </wf.a.TimingAction>
     <s.a.LogStorageAction/>
     <wf.a.ErrorAction plugin="workflow-api@2.37">

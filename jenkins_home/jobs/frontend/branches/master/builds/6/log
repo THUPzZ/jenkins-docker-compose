@@ -1,57 +1,259 @@
-Branch indexing
-[8mha:////4Ig0yJeQORO7erNt2HPNmMmqe3Y0rkmEZ6ft5xxFdQZXAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSezkzZAgB6ZGawjgAAAA==[0mConnecting to https://api.github.com using THUPzZ/******
-Obtained Jenkinsfile from 423ecd4efefe0fed23d1c0b8917f5e855b138640
+Started by user [8mha:////4HgoqM+DOngS4o43JJUg5UPC7tYhL4yd9twDg8p618TBAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYu/dLi1CL9kozSAgD9tHdGvwAAAA==[0mtheeraprased meemui
+[8mha:////4MvtPQAsh0Y1sAl47XAIUGagROy44CfcyGNsdUuGUznPAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSebkLERwC2Q36ljgAAAA==[0mConnecting to https://api.github.com using THUPzZ/******
+Obtained Jenkinsfile from 83bcdb6856ffc01037812e5eb29c4678ad4e3555
 Running in Durability level: MAX_SURVIVABILITY
-[8mha:////4OFbzBeHMu46gkHVcEwlf1rErOE4aveBIqqXxG3V65SSAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
-[8mha:////4PrlH8dZ4c9e4SsROJB5QkaODptd6K3kh8Ixc2NczvNpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
-Running on [8mha:////4EFeMs3ncczaryxg+d6j+CQZo/uZ/3I599/UvaoXHYo9AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/frontend_master
-[8mha:////4KasxraM/Qz3Myn96ZCcVEpTIBqdP6ya4W6JCzrH/9BSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
-[8mha:////4GSqR6FHkyZd3oTRXSBcVidttDR9DoKRMgSipOqzU8wrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QfeJvY8vAAAAA==[0m[Pipeline] }
-[8mha:////4N1mUeby+4pNYsNxp9CUEgALb8sNwgZvJR+XEg+X4Nz3AAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbmNgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8Brcky5bwAAAA=[0m[Pipeline] // node
-[8mha:////4O1sfXnyoVejAGHBpzUZlPUhGuZ12sx4OdhXqfCCNu8GAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSb2FgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHOMBdihdv8Bi9BVr7wAAAA=[0m[Pipeline] End of Pipeline
+[8mha:////4HVJ5HZSOusJjTTAlQGCc+tOstk4rm1Zg99Qn/ZqWrn1AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Gi8MQ9v6tF26RtrjhI1qr8zay8R/wbjfwYdspd2V9WyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BqN+Gf5fV1tBBezbQ9ymm0hRaPpaSY/pqTbg0ZygdEfAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/frontend_master
+[8mha:////4JTZEmeRybfUOkvKVg75o10OvZc+PGo34ml13P2ZOUI5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4G58c7GT7tjonbZsPvlHZ0qbF3U//65rZ68fusPhZmiPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Az8jTWlIdjEc+QnZqbA9ETivqzL33kLji4SDiEzO2LqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4BiMltWw4hGyWRMwrfTKkbx4gCEHM5ZlllLoABRaVVo2AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+using credential 8bec5738-ca3f-45d9-afda-53b8428a9bc2
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/THUPzZ/frontend.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/THUPzZ/frontend.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress -- https://github.com/THUPzZ/frontend.git +refs/heads/master:refs/remotes/origin/master # timeout=10
+Checking out Revision 83bcdb6856ffc01037812e5eb29c4678ad4e3555 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83bcdb6856ffc01037812e5eb29c4678ad4e3555 # timeout=10
+Commit message: "fix Jenkinsfile delete checkout scm"
+ > git rev-list --no-walk 83bcdb6856ffc01037812e5eb29c4678ad4e3555 # timeout=10
+[8mha:////4BHyu7u9OjbBENSEI6SQVHqcLnDI83JdMqttiqO021yrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Gcz8gEFH0mK4ExpD7/gu6YHeozUaj/NvxX5S8DDxwK0AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4JkoxVPD6zglZblt7dSjaU7tQZqVNUyDKLRst8icaRbIAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4E+mZ73spLJSrtsRgG/+ID0WasFZJZTiu0sTKRV/wW8AAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4OgeYTcqvOaF2wKiDjZi+5jqeOzC/kn5Xm1CXxwfMge5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4MkeztXWa0H8/ridPWCRC5bhDzb7TLbQjdwnCMjRUkAtAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4MjDCPbFlNPKOY4U0fbNs/3GKOf+mhPkCS51DBiMALkyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4OuQn/RrDm6S0Iq+oFoK9NMwRjcn62n/SCZ1irLRJO8/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Environment)
+[8mha:////4KQbdSYz4gNN7LUOri6cd4la5sR3OWUUBTUdu3RyRx9ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ git --version
+git version 2.11.0
+[8mha:////4H+ZWnJrbgwU5/i871B0YWlV8RYJ0OI5lIfFuUYShjInAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] echo
+Branch: master
+[8mha:////4OpzlmP7JPkl35CDzpHV+L1aRDh3YgM1o8sXL+5rvpo8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q08zss7vgAAAA==[0m[Pipeline] sh
++ docker -v
+Docker version 19.03.4, build 9013bf583a
+[8mha:////4B/MzrZmA2uYUZZkB44Tbgk/3H5sYiInzRSzi7xlNRRmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9/9AivgAAAA==[0m[Pipeline] sh
++ printenv
+JAVA_URL_VERSION=8u232b09
+JENKINS_HOME=/var/jenkins_home
+GIT_PREVIOUS_SUCCESSFUL_COMMIT=e817b6b2ad7dc13a6f047483d015cefb2038f3ba
+JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
+RUN_CHANGES_DISPLAY_URL=http://34.87.13.90:8080/job/frontend/job/master/6/display/redirect?page=changes
+HOSTNAME=8f1bd9d56e3e
+NODE_LABELS=master
+HUDSON_URL=http://34.87.13.90:8080/
+GIT_COMMIT=83bcdb6856ffc01037812e5eb29c4678ad4e3555
+SHLVL=0
+JAVA_BASE_URL=https://github.com/AdoptOpenJDK/openjdk8-upstream-binaries/releases/download/jdk8u232-b09/OpenJDK8U-jdk_
+HOME=/root
+BUILD_URL=http://34.87.13.90:8080/job/frontend/job/master/6/
+HUDSON_COOKIE=14e8c1ed-7f81-4a49-b20a-57cdde210100
+JENKINS_SERVER_COOKIE=durable-6aedc5fcb8b610bb0cce1f46c0298c1a
+JENKINS_UC=https://updates.jenkins.io
+WORKSPACE=/var/jenkins_home/workspace/frontend_master
+REF=/usr/share/jenkins/ref
+JAVA_VERSION=8u232
+NODE_NAME=master
+STAGE_NAME=Environment
+EXECUTOR_NUMBER=1
+GIT_BRANCH=master
+JENKINS_VERSION=2.190.2
+JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals
+BUILD_DISPLAY_NAME=#6
+HUDSON_HOME=/var/jenkins_home
+JOB_BASE_NAME=master
+PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+BUILD_ID=6
+BUILD_TAG=jenkins-frontend-master-6
+LANG=C.UTF-8
+JENKINS_URL=http://34.87.13.90:8080/
+JOB_URL=http://34.87.13.90:8080/job/frontend/job/master/
+GIT_URL=https://github.com/THUPzZ/frontend.git
+BUILD_NUMBER=6
+JENKINS_NODE_COOKIE=6e5996a1-9200-4b1c-b016-f772dcfe3da6
+RUN_DISPLAY_URL=http://34.87.13.90:8080/job/frontend/job/master/6/display/redirect
+JENKINS_SLAVE_AGENT_PORT=50000
+HUDSON_SERVER_COOKIE=10696853ccd09029
+JOB_DISPLAY_URL=http://34.87.13.90:8080/job/frontend/job/master/display/redirect
+JOB_NAME=frontend/master
+COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log
+JAVA_HOME=/usr/local/openjdk-8
+PWD=/var/jenkins_home/workspace/frontend_master
+GIT_PREVIOUS_COMMIT=83bcdb6856ffc01037812e5eb29c4678ad4e3555
+BRANCH_NAME=master
+[8mha:////4HANyGxDlrZp6WjxQXa0yGwn5o4nAEb0hjtsEblINYdNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGrSWhXvgAAAA==[0m[Pipeline] }
+[8mha:////4LESMcUi9CAi0vg6idlgyDP0Ph8mga4h1C5O/Vuy0Vr6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPpiqM+u+AAAA[0m[Pipeline] // stage
+[8mha:////4JjYbM0tQK/MBWeB7BG2oIIB/LkYZey5FhBjkjg2fhqGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUlBExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnK3z9Y0n2f1BjOvLvLCAAAA[0m[Pipeline] stage
+[8mha:////4M1Gas2BDV3DXnNMh/dXDNJ8sS23K+RmYwDyA4N+5vgXAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Test)
+[8mha:////4KqNcow1xLfQF0GCUsWRJIOONLe4zAiE/OTxaElB7j5mAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ echo stage test
+stage test
+[8mha:////4PkUxhMwHKmhPqgDkQ+OcDZF70Sz+ayl1bxgopHSkJu+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4KwMnxU0QZm502zRFvXeNT+hs5qpLaTnUJODhv686PcsAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // stage
+[8mha:////4EqwllwA/gcrmf4bjazcG4y9/J5q2fwT9pTjVV4Xlb/OAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g2APuOiwgAAAA==[0m[Pipeline] stage
+[8mha:////4NJVfLpZje69TvYK/lTHs8/j/1ZhT+x8EhFB5NTmiRu9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Build image)
+[8mha:////4MoM+a5FBk5Ar+iIG9v+149rAN1SNWoG+48/HQpbj5ZJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ docker build -t frontend --no-cache .
+Sending build context to Docker daemon  14.35MB
+Step 1/18 : FROM node:carbon
+carbon: Pulling from library/node
+9a0b0ce99936: Already exists
+db3b6004c61a: Already exists
+f8f075920295: Already exists
+6ef14aff1139: Already exists
+0bbd8b48260f: Pulling fs layer
+524be717efb1: Pulling fs layer
+a01845e4c44f: Pulling fs layer
+fb07811a8655: Pulling fs layer
+77b992cda412: Pulling fs layer
+fb07811a8655: Waiting
+77b992cda412: Waiting
+524be717efb1: Verifying Checksum
+524be717efb1: Download complete
+a01845e4c44f: Verifying Checksum
+a01845e4c44f: Download complete
+fb07811a8655: Verifying Checksum
+fb07811a8655: Download complete
+77b992cda412: Verifying Checksum
+77b992cda412: Download complete
+0bbd8b48260f: Verifying Checksum
+0bbd8b48260f: Download complete
+0bbd8b48260f: Pull complete
+524be717efb1: Pull complete
+a01845e4c44f: Pull complete
+fb07811a8655: Pull complete
+77b992cda412: Pull complete
+Digest: sha256:beaec0dc2f371e6449bc2154a253563e8e4b6910bebd74c28f44ba22c4e9ea31
+Status: Downloaded newer image for node:carbon
+ ---> 52a261fa5e4b
+Step 2/18 : RUN apt-get update
+ ---> Running in 6f1c392634fa
+Get:1 http://security.debian.org/debian-security stretch/updates InRelease [94.3 kB]
+Ign:2 http://deb.debian.org/debian stretch InRelease
+Get:3 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]
+Get:4 http://deb.debian.org/debian stretch Release [118 kB]
+Get:5 http://deb.debian.org/debian stretch Release.gpg [2365 B]
+Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [501 kB]
+Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [27.4 kB]
+Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7086 kB]
+Fetched 7920 kB in 2s (3124 kB/s)
+Reading package lists...
+Removing intermediate container 6f1c392634fa
+ ---> 6689b2ec8419
+Step 3/18 : RUN apt-get upgrade -y
+ ---> Running in e74ca9956a64
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  file libmagic-mgc libmagic1
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 397 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://security.debian.org/debian-security stretch/updates/main amd64 file amd64 1:5.30-1+deb9u3 [64.2 kB]
+Get:2 http://security.debian.org/debian-security stretch/updates/main amd64 libmagic1 amd64 1:5.30-1+deb9u3 [111 kB]
+Get:3 http://security.debian.org/debian-security stretch/updates/main amd64 libmagic-mgc amd64 1:5.30-1+deb9u3 [222 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 397 kB in 0s (13.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29962 files and directories currently installed.)
+Preparing to unpack .../file_1%3a5.30-1+deb9u3_amd64.deb ...
+Unpacking file (1:5.30-1+deb9u3) over (1:5.30-1+deb9u2) ...
+Preparing to unpack .../libmagic1_1%3a5.30-1+deb9u3_amd64.deb ...
+Unpacking libmagic1:amd64 (1:5.30-1+deb9u3) over (1:5.30-1+deb9u2) ...
+Preparing to unpack .../libmagic-mgc_1%3a5.30-1+deb9u3_amd64.deb ...
+Unpacking libmagic-mgc (1:5.30-1+deb9u3) over (1:5.30-1+deb9u2) ...
+Setting up libmagic-mgc (1:5.30-1+deb9u3) ...
+Setting up libmagic1:amd64 (1:5.30-1+deb9u3) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Setting up file (1:5.30-1+deb9u3) ...
+Removing intermediate container e74ca9956a64
+ ---> 2bd40bedd742
+Step 4/18 : RUN apt-get -y install autoconf automake libtool nasm make pkg-config git apt-utils
+ ---> Running in 11e9de60371f
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-10).
+automake is already the newest version (1:1.15-6).
+git is already the newest version (1:2.11.0-3+deb9u4).
+libtool is already the newest version (2.4.6-2).
+make is already the newest version (4.1-9.1).
+pkg-config is already the newest version (0.29-4+b1).
+pkg-config set to manually installed.
+The following additional packages will be installed:
+  libapt-inst2.0
+The following NEW packages will be installed:
+  apt-utils libapt-inst2.0 nasm
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2210 kB of archives.
+After this operation, 6460 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian stretch/main amd64 libapt-inst2.0 amd64 1.4.9 [192 kB]
+Get:2 http://deb.debian.org/debian stretch/main amd64 apt-utils amd64 1.4.9 [410 kB]
+Get:3 http://deb.debian.org/debian stretch/main amd64 nasm amd64 2.12.01-1+b1 [1608 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 2210 kB in 0s (35.0 MB/s)
+Selecting previously unselected package libapt-inst2.0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29962 files and directories currently installed.)
+Preparing to unpack .../libapt-inst2.0_1.4.9_amd64.deb ...
+Unpacking libapt-inst2.0:amd64 (1.4.9) ...
+Selecting previously unselected package apt-utils.
+Preparing to unpack .../apt-utils_1.4.9_amd64.deb ...
+Unpacking apt-utils (1.4.9) ...
+Selecting previously unselected package nasm.
+Preparing to unpack .../nasm_2.12.01-1+b1_amd64.deb ...
+Unpacking nasm (2.12.01-1+b1) ...
+Setting up libapt-inst2.0:amd64 (1.4.9) ...
+Setting up apt-utils (1.4.9) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Setting up nasm (2.12.01-1+b1) ...
+Removing intermediate container 11e9de60371f
+ ---> 4a57c44ded53
+Step 5/18 : RUN mkdir -p /usr/src/app
+ ---> Running in 9380244469b0
+Removing intermediate container 9380244469b0
+ ---> 556572236116
+Step 6/18 : WORKDIR /usr/src/app
+ ---> Running in b52da7b6b8a8
+Removing intermediate container b52da7b6b8a8
+ ---> e055dfef8d01
+Step 7/18 : RUN npm -v
+ ---> Running in 9b8aca26a37b
+6.4.1
+Removing intermediate container 9b8aca26a37b
+ ---> 7d6654bcbdfa
+Step 8/18 : RUN node -v
+ ---> Running in aac295201b5e
+v8.16.2
+Removing intermediate container aac295201b5e
+ ---> c2825e9aa1c1
+Step 9/18 : COPY package.json /usr/src/app/
+ ---> 20a5b10104d7
+Step 10/18 : COPY package-lock.json /usr/src/app/
+COPY failed: stat /var/lib/docker/tmp/docker-builder227989646/package-lock.json: no such file or directory
+[8mha:////4Jcq5xGxEsxBvyxFIPCZ4YpnEgdy3AdwIz8iiDpCsJmwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4FVlW3zJp30PoLcl9qzJn7HdC61hwss2ey1AAHsAR5dGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4MYF39W6J8fHcMEqHMlmFaxxRYzMPEzJ+Ti2yHCleQl2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU0BExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLXZGv2n2f1BoekWVTCAAAA[0m[Pipeline] stage
+[8mha:////4EdR8hHARvQ9m5qwCMJVdZsYIwCUQTOliF3c/zmRVpX5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Deployment)
+Stage "Deployment" skipped due to earlier failure(s)
+[8mha:////4PkVLIkVGTEX9hwEW0TlZReBenyAslLKxROcIjePh0ZTAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs/cJ6nb/qfYNvsfbsb4AAAA=[0m[Pipeline] }
+[8mha:////4I7u05j1HTXSM2c0BXYoGGTcMhoHTFz6km0hA18fXaQHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN40kgA2+AAAA[0m[Pipeline] // stage
+[8mha:////4LOjHsy2EklDpF4dQX0R3e6EWxuelV3O+yEZ//LANcBLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRikSDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w83BCXOvgAAAA==[0m[Pipeline] }
+[8mha:////4DtPinlzH+5QTe/G96LbStydIx41ZmHWueGqI2CWJbBgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw8E535yvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ARxI1TJMrtuc4b9t073ZGcG6mWXW7kVuaySMV+QLAquAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9rBCEavgAAAA==[0m[Pipeline] }
+[8mha:////4FLHgfAqonejVJuZVdh5aP/kRq8qS8c2eiK4x8jM7k41AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wFY53qmvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4FmxlIIpIwhztLHHlRcFb+L5t2z5cVttHxhdDeRZ1Ij1AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4GJhFOGEzAFY+hYB+M+pyJihYEb2X6xKfSH92K1y96yIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4Mm8RRfsojQRsmOMOZpLx5aRgnQdlMEWY9q8ppulUpaPAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
 
 GitHub has been notified of this commit’s build result
 
-groovy.lang.MissingPropertyException: No such property: any for class: groovy.lang.Binding
-	at groovy.lang.Binding.getVariable(Binding.java:63)
-	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onGetProperty(SandboxInterceptor.java:270)
-	at org.kohsuke.groovy.sandbox.impl.Checker$6.call(Checker.java:291)
-	at org.kohsuke.groovy.sandbox.impl.Checker.checkedGetProperty(Checker.java:295)
-	at org.kohsuke.groovy.sandbox.impl.Checker.checkedGetProperty(Checker.java:271)
-	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.getProperty(SandboxInvoker.java:29)
-	at com.cloudbees.groovy.cps.impl.PropertyAccessBlock.rawGet(PropertyAccessBlock.java:20)
-	at WorkflowScript.run(WorkflowScript:2)
-	at ___cps.transform___(Native Method)
-	at com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.get(PropertyishBlock.java:74)
-	at com.cloudbees.groovy.cps.LValueBlock$GetAdapter.receive(LValueBlock.java:30)
-	at com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.fixName(PropertyishBlock.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
-	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
-	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
-	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
-	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:129)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:268)
-	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
-	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
-	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
-	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:186)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:370)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$200(CpsThreadGroup.java:93)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:282)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:270)
-	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)
-	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
-	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+ERROR: script returned exit code 1
 Finished: FAILURE

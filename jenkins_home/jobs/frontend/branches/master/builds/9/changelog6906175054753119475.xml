@@ -1,0 +1,20 @@
+commit cbcbb2a7adff827c25d672b4c5b61b4a4650a337
+tree 259708d2ab5935cdb0a1cff173c81247014d29d9
+parent 5ab8784f5ab6341a3fc20bb0f699e597e48a5d49
+author root <root@instance-1.asia-southeast1-b.c.master-vehicle-257815.internal> 2019-11-02 20:16:10 +0000
+committer root <root@instance-1.asia-southeast1-b.c.master-vehicle-257815.internal> 2019-11-02 20:16:10 +0000
+
+    fix copy path Dockerfile
+
+
+:100644 100644 d56f7e205cee1fb0f34c661300055a5dce887d9c c85b746142d6816541fa6e27eefca907e542af98 M	Dockerfile
+commit 5ab8784f5ab6341a3fc20bb0f699e597e48a5d49
+tree 687d46e30c6dfc72b1e06961b04dfe924e60596c
+parent 98fbba5764979a8f46c9c2b0ac9304e47e957146
+author theeraprased <tub.meemui@gmail.com> 2019-11-03 03:02:17 +0700
+committer theeraprased <tub.meemui@gmail.com> 2019-11-03 03:02:17 +0700
+
+    update script nginx.conf
+
+
+:100644 100644 24100b5c54db4e662ecdd78707b0e0dc99a971d7 32c30d53aa331c22af49a9315ee0453c9217b527 M	nginx.conf

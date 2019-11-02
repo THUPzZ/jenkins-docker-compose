@@ -10,12 +10,12 @@
       </causeBag>
     </hudson.model.CauseAction>
     <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.6.3">
-      <sourceId>d5d42438-8b3d-485d-9aec-2e7cda3e4c45</sourceId>
+      <sourceId>89e883a7-05c8-49c5-b1ca-1544833f6f77</sourceId>
       <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@4.0.0">
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.5.8">
           <name>master</name>
         </head>
-        <hash>d5eecd35a377a153a65648f9f0de41a81e36a0fb</hash>
+        <hash>4b2fb0eac18ab29fb3885362000cc28ec97577b4</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
@@ -27,7 +27,7 @@
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@3.0.0">
-              <sha1>d5eecd35a377a153a65648f9f0de41a81e36a0fb</sha1>
+              <sha1>4b2fb0eac18ab29fb3885362000cc28ec97577b4</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -67,10 +67,10 @@
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
   </actions>
   <queueId>2</queueId>
-  <timestamp>1572703021322</timestamp>
-  <startTime>1572703021392</startTime>
+  <timestamp>1572717119448</timestamp>
+  <startTime>1572717119539</startTime>
   <result>FAILURE</result>
-  <duration>25452</duration>
+  <duration>20893</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
@@ -83,24 +83,24 @@
     stage(&apos;Environment&apos;) {
       sh &apos;git --version&apos;
       echo &quot;Branch: ${env.BRANCH_NAME}&quot;
-      sh &apos;sudo docker -v&apos;
-      sh &apos;sudo printenv&apos;
+      sh &apos;docker -v&apos;
+      sh &apos;printenv&apos;
     }
     stage(&apos;Build Docker test&apos;){
-     sh &apos;sudo docker build -t react-test -f Dockerfile --no-cache .&apos;
+     sh &apos;docker build -t react-test -f Dockerfile --no-cache .&apos;
     }
     stage(&apos;Docker test&apos;){
-      sh &apos;sudo docker run --rm react-test&apos;
+      sh &apos;docker run --rm react-test&apos;
     }
     stage(&apos;Clean Docker test&apos;){
-      sh &apos;sudo docker rmi react-test&apos;
+      sh &apos;docker rmi react-test&apos;
     }
     stage(&apos;Deploy&apos;){
       if(env.BRANCH_NAME == &apos;master&apos;){
-        sh &apos;sudo docker build -t frontend --no-cache .&apos;
-        sh &apos;sudo docker tag frontend 127.0.0.1:5000/frontend&apos;
-        sh &apos;sudo docker push 127.0.0.1:5000/frontend&apos;
-        sh &apos;sudo docker rmi -f frontend 127.0.0.1:5000/frontend&apos;
+        sh &apos;docker build -t frontend --no-cache .&apos;
+        sh &apos;docker tag frontend 127.0.0.1:5000/frontend&apos;
+        sh &apos;docker push 127.0.0.1:5000/frontend&apos;
+        sh &apos;docker rmi -f frontend 127.0.0.1:5000/frontend&apos;
       }
     }
   }
@@ -114,23 +114,23 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>751733712</long>
+        <long>355455226</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>1838209997</long>
+        <long>2774442536</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>2653708687</long>
+        <long>2608562673</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>1648449291</long>
+        <long>2222432957</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>505287375</long>
+        <long>932297279</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
@@ -149,7 +149,7 @@
             <name>origin</name>
             <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
             <url>https://github.com/THUPzZ/frontend.git</url>
-            <credentialsId>1b5fe144-c8e1-4de5-978f-5aefd4e8d953</credentialsId>
+            <credentialsId>8bec5738-ca3f-45d9-afda-53b8428a9bc2</credentialsId>
           </hudson.plugins.git.UserRemoteConfig>
         </userRemoteConfigs>
         <branches class="singleton-list">
@@ -175,7 +175,7 @@
       </scm>
       <node></node>
       <workspace>/var/jenkins_home/workspace/frontend_master</workspace>
-      <changelogFile>/var/jenkins_home/jobs/frontend/branches/master/builds/1/changelog2636847269401094508.xml</changelogFile>
+      <changelogFile>/var/jenkins_home/jobs/frontend/branches/master/builds/1/changelog3606736619912741705.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

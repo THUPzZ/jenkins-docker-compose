@@ -1,0 +1,19 @@
+commit 83bcdb6856ffc01037812e5eb29c4678ad4e3555
+tree 4d581e663d769505e6d4750730ab5479e5bbfa61
+parent a0cc66b569f649e2d97e9d4fb9c620bf6df54021
+author Theeraprased Meemui <36168292+THUPzZ@users.noreply.github.com> 2019-11-03 01:11:03 +0700
+committer GitHub <noreply@github.com> 2019-11-03 01:11:03 +0700
+
+    fix Jenkinsfile delete checkout scm
+
+:100644 100644 0d14ed92ff2b822fd228f620963f2063144fbf15 1098a3c2beb4f26fd0b29477f3e01a5c5bd3f5f3 M	Jenkinsfile
+commit a0cc66b569f649e2d97e9d4fb9c620bf6df54021
+tree 340fcfa5e1845e3278a5ffbd43eb397738284164
+parent e817b6b2ad7dc13a6f047483d015cefb2038f3ba
+author theeraprased <tub.meemui@gmail.com> 2019-11-03 01:08:48 +0700
+committer theeraprased <tub.meemui@gmail.com> 2019-11-03 01:08:48 +0700
+
+    test piline
+
+
+:100644 100644 e09032df6e91fc24789f0098ce1a43cad558c324 0d14ed92ff2b822fd228f620963f2063144fbf15 M	Jenkinsfile

@@ -1,0 +1,11 @@
+commit 212e87cf39ccefffc56c422e68aee807e0245f10
+tree 24fc3eeff6ea0cdcba3c659b570debe15e903788
+parent 3ec5d90f995959959d152babdd890d4c3a70ad96
+author theeraprased <tub.meemui@gmail.com> 2019-11-03 05:08:02 +0700
+committer theeraprased <tub.meemui@gmail.com> 2019-11-03 05:08:02 +0700
+
+    fix tag rebuild images
+
+
+:100644 100644 a7dcbd99c7895c7485b6a47a9913392ab42b9720 f4ba44a31a6223e191f19b7d7cb43cace317a026 M	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 20af9e4fc47bb8f3f77a98bc31a3b723fb1826cf A	docker-compose.yml

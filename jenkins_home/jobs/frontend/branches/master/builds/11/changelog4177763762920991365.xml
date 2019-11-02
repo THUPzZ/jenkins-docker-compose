@@ -1,0 +1,11 @@
+commit 3ec5d90f995959959d152babdd890d4c3a70ad96
+tree 02fb5d95b989598837b6894845e2a023d7140625
+parent 16da52e78636907ca044dc7f6f7c60d56eca346d
+author theeraprased <tub.meemui@gmail.com> 2019-11-03 04:27:24 +0700
+committer theeraprased <tub.meemui@gmail.com> 2019-11-03 04:27:24 +0700
+
+    fix tag images
+
+
+:100644 100644 51ac34f50054635dbd8ea4b9a35a396cfca70e5d a7dcbd99c7895c7485b6a47a9913392ab42b9720 M	Jenkinsfile
+:100644 100644 2b13f77f9cb1d190553c1f5d6b520d30dcdf9c5f 998f47f0b4eaff9f9d2118262aeaf4ed82063200 M	scriptdeploy.sh

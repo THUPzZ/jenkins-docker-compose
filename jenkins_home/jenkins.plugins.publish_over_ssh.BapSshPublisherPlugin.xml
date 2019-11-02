@@ -1,0 +1,109 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor plugin="publish-over-ssh@1.20.1">
+  <hostConfigurations>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>frontend</name>
+      <hostname>34.87.13.90</hostname>
+      <username>thuppee4</username>
+      <secretPassword>{AQAAABAAAAAQcYLypRu2x9wf6R1b2NImNSKwB7hUhoVhFOJKuejj+8M=}</secretPassword>
+      <remoteRootDir></remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration">
+        <secretPassphrase>{AQAAABAAAAAQOAe468rqx+rDsVvePydVUFWaGiiIdvBBWMVa63djaq8=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+        <disableAllExec>false</disableAllExec>
+      </commonConfig>
+      <timeout>300000</timeout>
+      <overrideKey>true</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQpbT/cK/i4ypPxSgDP1asv4Glv2FIob/av1ucHMsOCHg=}</secretPassphrase>
+        <key>-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+</key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name></name>
+      <hostname></hostname>
+      <username></username>
+      <secretPassword>{AQAAABAAAAAQyAx+n4is4lR9I4MbRJ7oSjlS+gOoFXnibc3Lg47jAwQ=}</secretPassword>
+      <remoteRootDir></remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration" reference="../../jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+      <timeout>300000</timeout>
+      <overrideKey>false</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQgcHKKSTWiQTVh1/2zcLfG5hwbcWWwwZwY0zWK+p/JhQ=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+  </hostConfigurations>
+  <commonConfig reference="../hostConfigurations/jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+  <defaults class="jenkins.plugins.publish_over_ssh.options.SshPluginDefaults"/>
+</jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor>
